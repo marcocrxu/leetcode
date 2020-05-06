@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44ccb05-feb4-43d1-bf0b-07e18294c1e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_572.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +53,9 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.leetcode_67">
-    <configuration name="leetcode_62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_62" />
+  <component name="RunManager" selected="Application.leetcode_572">
+    <configuration name="leetcode_572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_572" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode_572" />
         <item itemvalue="Application.leetcode_67" />
         <item itemvalue="Application.leetcode_66" />
         <item itemvalue="Application.leetcode_65" />
         <item itemvalue="Application.leetcode_63" />
-        <item itemvalue="Application.leetcode_62" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +122,7 @@
       <workItem from="1587915091019" duration="15222000" />
       <workItem from="1588263606951" duration="41916000" />
       <workItem from="1588743267168" duration="5692000" />
-      <workItem from="1588750268612" duration="17509000" />
+      <workItem from="1588750268612" duration="19395000" />
     </task>
     <task id="LOCAL-00001" summary="add leetcode 60,61,62,63 and daily 983 on 2020/5/6">
       <created>1588757255697</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588773661477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="leetcode 66 67 2020/05/06">
+      <created>1588775454486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588775454486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +162,8 @@
     <MESSAGE value="add leetcode 60,61,62,63 and daily 983 on 2020/5/6" />
     <MESSAGE value="add leetcode 64" />
     <MESSAGE value="add leetcode 65&#10;DFA to judge isNumber." />
-    <option name="LAST_COMMIT_MESSAGE" value="add leetcode 65&#10;DFA to judge isNumber." />
+    <MESSAGE value="leetcode 66 67 2020/05/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 66 67 2020/05/06" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="17" key="#HTTP_Proxy" timestamp="1587716053664">
@@ -183,10 +190,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="867" y="126" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1586699140873" />
-    <state x="54" y="0" key="CommitChangelistDialog2" timestamp="1588773660443">
+    <state x="54" y="0" key="CommitChangelistDialog2" timestamp="1588775453252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="54" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588773660443" />
+    <state x="54" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588775453252" />
     <state width="446" height="466" key="DebuggerActiveHint" timestamp="1588355510735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -195,46 +202,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588061282682" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1588775340844">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588775340844" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1588775340843">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588775340843" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1588775340843">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588775340843" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1588775340843">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588775340843" />
-    <state width="1493" height="178" key="GridCell.Tab.1.bottom" timestamp="1588775340844">
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.1.bottom" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588775340844" />
-    <state width="1493" height="178" key="GridCell.Tab.1.center" timestamp="1588775340844">
+    <state width="1493" height="178" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.1.center" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588775340844" />
-    <state width="1493" height="178" key="GridCell.Tab.1.left" timestamp="1588775340844">
+    <state width="1493" height="178" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.1.left" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588775340844" />
-    <state width="1493" height="178" key="GridCell.Tab.1.right" timestamp="1588775340844">
+    <state width="1493" height="178" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
+    <state width="1493" height="178" key="GridCell.Tab.1.right" timestamp="1588782864384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588775340844" />
+    <state width="1493" height="178" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588782864384" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1587462105829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587462105829" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588773673034">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588775460423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588773673034" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588775460423" />
     <state x="408" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588750268904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -717,13 +724,19 @@
           <line>26</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode_572.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="minCostTickets(days,costs,_1day)+costs[0]" language="JAVA" />
-        <watch expression="minCostTickets(days,costs,_7days)+costs[1]" language="JAVA" />
-        <watch expression="minCostTickets(days,costs,_30days)+costs[2]" language="JAVA" />
+        <watch expression="isSubtree(s.left,t.left)" language="JAVA" />
+        <watch expression="isSubtree(s.right,t.right)" language="JAVA" />
+        <watch expression="isSubtree(s.right,t)" language="JAVA" />
+        <watch expression="isSubtree(s.left,t)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
