@@ -1,4 +1,4 @@
-
+import com.eclipsesource.json.JsonArray;
 public class ListNode{
 	int val;
 	ListNode next;
@@ -55,5 +55,19 @@ public class ListNode{
 			count++;
 		}
 		return count;
+	}
+
+	public static int[][] stringToInt2dArray(String input) {
+		JsonArray jsonArray = JsonArray.readFrom(input);
+		if (jsonArray.size() == 0) {
+			return new int[0][0];
+		}
+
+		int[][] arr = new int[jsonArray.size()][];
+		for (int i = 0; i < arr.length; i++) {
+			JsonArray cols = jsonArray.get(i).asArray();
+			arr[i] = stringToIntegerArray(cols.toString());
+		}
+		return arr;
 	}
 }

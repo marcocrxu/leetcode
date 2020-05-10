@@ -1,4 +1,3 @@
-import com.sun.source.tree.Tree;
 
 public class leetcode_572 {
     public static boolean isSameTree(TreeNode s,TreeNode t){
