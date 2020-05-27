@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44ccb05-feb4-43d1-bf0b-07e18294c1e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_1371.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_1450.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_1451.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_1452.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_1453.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_680.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode_88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadLearn/DiningPhilosophers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadLearn/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadLearn/Semaphore/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReader.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/BasicSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/DCLSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Singleton.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/SubClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/synchronizedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/huawei.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IO/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IO/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +95,7 @@
       <recent name="D:\java_workspace\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxHeap">
+  <component name="RunManager" selected="Application.huawei">
     <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.MaxHeap" />
       <module name="leetcode" />
@@ -144,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_179" />
+    <configuration name="huawei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huawei" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.huawei" />
         <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.leetcode_88" />
-        <item itemvalue="Application.leetcode_179" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +197,8 @@
       <workItem from="1589857116427" duration="7514000" />
       <workItem from="1589896080131" duration="356000" />
       <workItem from="1589942612856" duration="17159000" />
-      <workItem from="1590242372119" duration="13171000" />
+      <workItem from="1590242372119" duration="19801000" />
+      <workItem from="1590551303650" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="add leetcode 60,61,62,63 and daily 983 on 2020/5/6">
       <created>1588757255697</created>
@@ -285,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589767694230</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add 2020/5/26">
+      <created>1590473814017</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590473814017</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +315,8 @@
     <MESSAGE value="add leetcode_ 73 74 75 236 5404 5405 5406&#10;add JsonMinimal" />
     <MESSAGE value="add huaweiTest  meituan 2020/5/12" />
     <MESSAGE value="add 2020/5/13" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/5/13" />
+    <MESSAGE value="add 2020/5/26" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/5/26" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="17" key="#HTTP_Proxy" timestamp="1587716053664">
@@ -347,6 +347,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1587548681261" />
+    <state x="456" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590551556857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1590551556857" />
     <state x="548" y="297" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590373723961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -355,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="867" y="126" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1586699140873" />
-    <state x="54" y="0" key="CommitChangelistDialog2" timestamp="1589767692073">
+    <state x="54" y="0" key="CommitChangelistDialog2" timestamp="1590473811047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="54" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589767692073" />
+    <state x="54" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590473811047" />
     <state width="446" height="466" key="DebuggerActiveHint" timestamp="1588355510735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -371,46 +375,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590040978202" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1590469159985">
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1590477222999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1590469159985">
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590477222999" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1590477222999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1590469159985">
+    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590477222999" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1590477222999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1590469159985">
+    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590477222999" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1590477222999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1590469159985">
+    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590477222999" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1590477178419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1590469159985">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590477178419" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1590477178419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1590469159985">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590477178419" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1590477178418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1590469159985">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590477178418" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1590477178419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590469159985" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590477178419" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1587462105829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587462105829" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589356245540">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590473825270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589356245540" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590473825270" />
     <state x="408" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589896412230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -427,14 +431,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589896435572" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1589032177033">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1590552327939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589032177033" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589862199164">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590552327939" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590553112515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589862199164" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590553112515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1124,6 +1128,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Sort/MaxHeap.java</url>
           <line>16</line>
           <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/huawei.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/huawei.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="349" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
